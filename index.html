@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tharindu Dasun Pathirage - Software Engineer</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #212529;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+            color: #343a40;
+            margin-bottom: 0.5em;
+        }
+
+        h1 { font-size: 2.8em; margin-bottom: 0.2em; }
+        h2 { font-size: 2em; margin-top: 1.5em; border-bottom: 2px solid #007bff; padding-bottom: 0.3em; }
+        h3 { font-size: 1.4em; color: #495057; }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 0.5em;
+        }
+
+        /* Header / Navbar */
+        .navbar {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 1em 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin-left: 20px;
+        }
+
+        .navbar ul li a {
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #e9ecef;
+            padding: 4em 0;
+            text-align: center;
+        }
+
+        .hero .title {
+            font-size: 1.8em;
+            color: #495057;
+            margin-bottom: 1em;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 2em 0;
+        }
+
+        .section-content {
+            margin-top: 1em;
+        }
+
+        .skills-grid, .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .skill-category, .project-item, .job, .education-item, .certification-item, .volunteering-role {
+            background-color: #ffffff;
+            padding: 1.5em;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 1em;
+        }
+
+        .job-title {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .job-company {
+            font-style: italic;
+            color: #6c757d;
+        }
+        .job-dates {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-bottom: 0.5em;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2em 0;
+            background-color: #343a40;
+            color: #ffffff;
+            margin-top: 2em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+        footer a {
+            color: #007bff;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .navbar .container {
+                flex-direction: column;
+            }
+            .navbar ul {
+                margin-top: 10px;
+                flex-direction: column;
+                align-items: center;
+            }
+            .navbar ul li {
+                margin: 5px 0;
+            }
+            h1 { font-size: 2.2em; }
+            h2 { font-size: 1.8em; }
+            .skills-grid, .projects-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Tharindu Dasun Pathirage</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>THARINDU DASUN PATHIRAGE </h1>
+            <p class="title">SOFTWARE ENGINEER </p>
+            <p>Driving innovation in embedded systems, C++, FPGAs, and Machine Learning.</p>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="section-content">
+                <p>
+                    Experienced Senior Software Engineer with a robust background in embedded software development, C++, FPGA design, RISC-V architecture, and machine learning. 
+                    Renowned for a quick learning curve, exceptional analytical thinking, and superior problem-solving abilities. 
+                    Demonstrates a strong ability to drive innovative solutions and optimize complex systems. 
+                    Adept at leading cross-functional teams, mentoring junior engineers, and delivering high-impact projects on time. 
+                    Seeking opportunities to leverage my extensive skill set and contribute to cutting-edge technological advancements and impactful projects. 
+                </p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills </h2>
+            <div class="skills-grid section-content">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>C/C++</li>
+                        <li>Python</li>
+                        <li>Verilog/System Verilog</li>
+                        <li>HTML/CSS/JavaScript</li>
+                        <li>Ladder Programming</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Software Development & Tools</h3>
+                    <ul>
+                        <li>VSCode, Visual Studio, Spring Boot</li>
+                        <li>Atmel Studio, Vivado/HLS/SDK</li>
+                        <li>Android Studio, MPLAB, MATLAB</li>
+                        <li>ARM Development Studio</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Technical Expertise</h3>
+                    <ul>
+                        <li>FPGA</li>
+                        <li>Linux/MacOS</li>
+                        <li>Machine Learning</li>
+                        <li>Analytical Thinking</li>
+                        <li>Problem Solving</li>
+                        <li>Creativity/Leadership</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="section-content">
+                <div class="job">
+                    <p class="job-title">Senior Software Engineer </p>
+                    <p class="job-company">Analog Inference, California, US (Remote from Accelr Sri Lanka)</p>
+                    <p class="job-dates">2020-Present </p>
+                    <ul>
+                        <li>Automated mapper development in C++. </li>
+                        <li>Developing software to program AI chips in C++ (C++11). </li>
+                        <li>Implemented software simulation for AI chips in C++. </li>
+                        <li>Experience with Linux and scripting, compiler debugging, and building debug automation tools with Python. </li>
+                        <li>Trainer in Accelr System Verilog for verification and designing. </li>
+                        <li>Experience in Linux, C++ development in Ubuntu environment, and DNN with Python. </li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <p class="job-title">Electronic Engineering Trainee </p>
+                    <p class="job-company">Paraqum Technologies</p>
+                    <p class="job-dates">2018 </p>
+                    <ul>
+                        <li>Gained experience in FPGA electronic design, Verilog & C languages, parallel processing, and network products. </li>
+                        <li>Developed Slack message bot in C++ with CURL and Email verification system for Gmail in C++. </li>
+                        <li>Developed automated SMS sender with GSM modem in C++.</li>
+                        <li>Developed hardware accelerator to read and write data to DDR memory in Verilog and C++ (HLS). </li>
+                        <li>Developed hardware-accelerated AXI DMA IP in Verilog. </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects & Research</h2>
+            <div class="projects-grid section-content">
+                <div class="project-item">
+                    <h3>Research: Multi-Prime RSA Verilog Implementation Using 4-Primes </h3>
+                    <p>Presented at IEEE ICIAS 2021. <a href="https://ieeexplore.ieee.org/document/9605975" target="_blank">View Publication</a></p>
+                </div>
+                <div class="project-item">
+                    <h3>Hardware Acceleration of OpenSSL Crypto Functions using FPGAs </h3>
+                    <p>Improved SSL/TLS connection performance with AES & RSA implementations. </p>
+                </div>
+                <div class="project-item">
+                    <h3>Embedded Systems Temperature Controller System </h3>
+                    <p>Developed using Atmel Studio and C language for ATmega328p. </p>
+                </div>
+                <div class="project-item">
+                    <h3>GPS Tracking System </h3>
+                    <p>Implemented using ESP32 microcontroller and C language; developed an Android app for tracking. </p>
+                </div>
+                 <div class="project-item">
+                    <h3>Reservation System </h3>
+                    <p>Concurrently driven service reservation system that hosted distributed system. </p>
+                </div>
+                <div class="project-item">
+                    <h3>Cloud base Web for Company Product marketing </h3>
+                    <p>Developed and deployed web system with CI/CD pipeline, and cloud automation with AWS CDK, and Git hub. </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education </h2>
+            <div class="section-content">
+                <div class="education-item">
+                    <h3>MSc in Advanced Software Engineering</h3>
+                    <p>University of Westminster (Reading)</p>
+                </div>
+                <div class="education-item">
+                    <h3>BSc (Hons) in Electronic & Telecommunication Engineering</h3>
+                    <p>Sri Lanka Technological Campus (2016-2020)</p>
+                </div>
+                 <div class="education-item">
+                    <h3>G.C.E. Advanced Level & Ordinary Level Examination </h3>
+                    <p>St. Joseph's College, Colombo-10 (2010-2015) </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Courses & Certifications </h2>
+            <div class="section-content">
+                <ul>
+                    <li class="certification-item">RISC-V Associate Certificate Course (Ongoing) - Linux Foundation</li>
+                    <li class="certification-item">Complete Modern C++ (C++11/14/17) - Udemy</li>
+                    <li class="certification-item">Machine Learning - Stanford University - Coursera</li>
+                    <li class="certification-item">Cryptography and Information Theory University of Colorado - Coursera</li>
+                    <li class="certification-item">Cloud Engineering with Google Cloud Google Cloud - Coursera</li>
+                    <li class="certification-item">NDG Linux Unhatched - Cisco Networking Academy</li>
+                    <li class="certification-item">AWS Cloud Practitioner Essentials - Amazon Web Services (AWS)</li>
+                    <li class="certification-item">FPGA Programming with VHDL - Pluralsight</li>
+                    <li class="certification-item">SSL/TLS Protocol and Handshake Process - Udemy</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="volunteering">
+            <h2>Volunteering </h2>
+            <div class="section-content">
+                <div class="volunteering-role">
+                    <h3>IEEE Sri Lanka Section</h3>
+                    <ul>
+                        <li>Membership Development Subcommittee Chairman (2020-2021)</li>
+                        <li>Committee Member, IEEE YP Sri Lanka Section (2020-2021)</li>
+                        <li>Co-Chairman, IEEE Sri Lanka Section SWY Congress (2019)</li>
+                        <li>First President, IEEE Student Branch at SLTC (2018-2019)</li>
+                        <li>Logistic Team Lead, IEEE Sri Lanka Section SWY Congress (2018-2019)</li>
+                        <li>Student Ambassador, IEEE PES HAC (2018-2019)</li>
+                        <li>Student Ambassador, IEEE MadC (2019)</li>
+                    </ul>
+                </div>
+                <div class="volunteering-role">
+                     <h3>LEO Club SLTC</h3>
+                     <ul>
+                        <li>Director, LEO Club of SLTC (2017-2018)</li>
+                     </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <div class="section-content">
+                <p>Feel free to reach out to me via email or connect with me on LinkedIn.</p>
+                <ul>
+                    <li><strong>Email:</strong> <a href="mailto:dasunpathirage@gmail.com">dasunpathirage@gmail.com</a> </li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dasun-pathirage/" target="_blank">linkedin.com/in/dasun-pathirage</a> </li>
+                    <li><strong>Phone:</strong> +94714092010 </li>
+                    <li><strong>Location:</strong> Kadawatha, Sri Lanka  (or more general "Sri Lanka" if preferred for privacy)</li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tharindu Dasun Pathirage. All Rights Reserved.</p>
+            <p>Minimalist design created based on resume.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
